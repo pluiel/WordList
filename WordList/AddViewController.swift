@@ -11,7 +11,7 @@ import UIKit
 class AddViewController: UIViewController {
     
     @IBOutlet var engishTextField: UITextField!
-    @IBOutlet var japaneseTextField: UILabel!
+    @IBOutlet var japaneseTextField: UITextField!
     
      var wordArray: [Dictionary<String, String>] = []
     
