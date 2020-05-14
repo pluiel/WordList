@@ -15,6 +15,14 @@
 		F95CD9D1246C14BC00595D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9CF246C14BC00595D49 /* LaunchScreen.storyboard */; };
 		F95CD9DC246C14BC00595D49 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD9DB246C14BC00595D49 /* WordListTests.swift */; };
 		F95CD9E7246C14BC00595D49 /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD9E6246C14BC00595D49 /* WordListUITests.swift */; };
+		F95CD9F8246C14F000595D49 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9F5246C14F000595D49 /* word_blank.png */; };
+		F95CD9F9246C14F000595D49 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9F6246C14F000595D49 /* fin.png */; };
+		F95CD9FA246C14F000595D49 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9F7246C14F000595D49 /* title_logo.png */; };
+		F95CD9FC246CDCF400595D49 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD9FB246CDCF400595D49 /* QuestionViewController.swift */; };
+		F95CD9FE246CDD3300595D49 /* FInishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD9FD246CDD3300595D49 /* FInishViewController.swift */; };
+		F95CDA00246CDD7B00595D49 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD9FF246CDD7B00595D49 /* ListTableViewController.swift */; };
+		F95CDA02246CDDAB00595D49 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CDA01246CDDAB00595D49 /* AddViewController.swift */; };
+		F95CDA04246CEF0100595D49 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CDA03246CEF0100595D49 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		F95CD9E2246C14BC00595D49 /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95CD9E6246C14BC00595D49 /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		F95CD9E8246C14BC00595D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95CD9F5246C14F000595D49 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		F95CD9F6246C14F000595D49 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		F95CD9F7246C14F000595D49 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		F95CD9FB246CDCF400595D49 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F95CD9FD246CDD3300595D49 /* FInishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FInishViewController.swift; sourceTree = "<group>"; };
+		F95CD9FF246CDD7B00595D49 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		F95CDA01246CDDAB00595D49 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F95CDA03246CEF0100595D49 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		F95CD9C3246C14BA00595D49 /* WordList */ = {
 			isa = PBXGroup;
 			children = (
+				F95CD9F4246C14F000595D49 /* WordList素材 */,
 				F95CD9C4246C14BA00595D49 /* AppDelegate.swift */,
 				F95CD9C6246C14BA00595D49 /* SceneDelegate.swift */,
 				F95CD9C8246C14BA00595D49 /* ViewController.swift */,
@@ -106,6 +123,11 @@
 				F95CD9CD246C14BC00595D49 /* Assets.xcassets */,
 				F95CD9CF246C14BC00595D49 /* LaunchScreen.storyboard */,
 				F95CD9D2246C14BC00595D49 /* Info.plist */,
+				F95CD9FB246CDCF400595D49 /* QuestionViewController.swift */,
+				F95CD9FD246CDD3300595D49 /* FInishViewController.swift */,
+				F95CD9FF246CDD7B00595D49 /* ListTableViewController.swift */,
+				F95CDA01246CDDAB00595D49 /* AddViewController.swift */,
+				F95CDA03246CEF0100595D49 /* ListTableViewCell.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -126,6 +148,16 @@
 				F95CD9E8246C14BC00595D49 /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		F95CD9F4246C14F000595D49 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				F95CD9F5246C14F000595D49 /* word_blank.png */,
+				F95CD9F6246C14F000595D49 /* fin.png */,
+				F95CD9F7246C14F000595D49 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95CD9F8246C14F000595D49 /* word_blank.png in Resources */,
+				F95CD9FA246C14F000595D49 /* title_logo.png in Resources */,
 				F95CD9D1246C14BC00595D49 /* LaunchScreen.storyboard in Resources */,
 				F95CD9CE246C14BC00595D49 /* Assets.xcassets in Resources */,
+				F95CD9F9246C14F000595D49 /* fin.png in Resources */,
 				F95CD9CC246C14BA00595D49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95CD9C9246C14BA00595D49 /* ViewController.swift in Sources */,
+				F95CDA04246CEF0100595D49 /* ListTableViewCell.swift in Sources */,
 				F95CD9C5246C14BA00595D49 /* AppDelegate.swift in Sources */,
+				F95CDA02246CDDAB00595D49 /* AddViewController.swift in Sources */,
+				F95CD9FC246CDCF400595D49 /* QuestionViewController.swift in Sources */,
+				F95CDA00246CDD7B00595D49 /* ListTableViewController.swift in Sources */,
+				F95CD9FE246CDD3300595D49 /* FInishViewController.swift in Sources */,
 				F95CD9C7246C14BA00595D49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
