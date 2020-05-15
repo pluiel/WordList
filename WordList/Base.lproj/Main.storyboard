@@ -206,7 +206,6 @@
                                 <connections>
                                     <outlet property="englishLabel" destination="qXR-Ul-QzS" id="e5S-Qo-z6N"/>
                                     <outlet property="japaneseLabel" destination="J7d-MO-LyI" id="Eco-lE-cas"/>
-                                    <outlet property="selectedBackgroundView" destination="a9a-r4-Vty" id="XTh-Ll-3RO"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
