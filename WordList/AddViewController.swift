@@ -25,14 +25,14 @@ class AddViewController: UIViewController {
     }
     
 
-    @IBAction func saveWord(){
+    @IBAction func saveWord() {
         
         let wordDictionary = ["english": engishTextField.text!, "japanese": japaneseTextField.text!]
         
         wordArray.append(wordDictionary)
         saveDate.set(wordArray, forKey: "WORD")
         
-        let alert = UIAlertController (
+        let alert = UIAlertController(
             title: "保存完了",
             message: "単語の登録が完了しました",
             preferredStyle: .alert

@@ -29,14 +29,18 @@ class ListTableViewController: UITableViewController {
         
     }
 
-    // MARK: - Table view data source
+    
+   
+    
+    
+    
     
     // セクション数を指定します
-   override func numberOfSections(in tableView: UITableView) -> Int{
-    return 1
-}
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
     // セルの個数を指定します
-     override func tableView(_ tableView: UITableView, numberOfRowsInSection section:
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section:
         Int) -> Int {
         return wordArray.count
     }
@@ -44,7 +48,7 @@ class ListTableViewController: UITableViewController {
     // セルの中身の表示の仕方を設定します
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath)
         -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
             as! ListTableViewCell
             
             let nowIndexPathDictionary = wordArray[indexPath.row]
@@ -53,8 +57,7 @@ class ListTableViewController: UITableViewController {
             cell.japaneseLabel.text = nowIndexPathDictionary["japanese"]
 
             return cell
-            
-}
+     }
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)

@@ -19,11 +19,11 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func startButtontrapped() {
+    @IBAction func startButtonTapped() {
         let saveDate = UserDefaults.standard
         if saveDate.array(forKey: "WORD") != nil {
             if saveDate.array(forKey: "WORD")!.count > 0 {
-                performSegue(withIdentifier: "toQuestioinView", sender: nil)
+                performSegue(withIdentifier: "toQuestionView", sender: nil)
             }
         } else {
             let alert = UIAlertController(

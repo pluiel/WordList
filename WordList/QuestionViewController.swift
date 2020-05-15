@@ -11,7 +11,7 @@ import UIKit
 class QuestionViewController: UIViewController {
     
     @IBOutlet var answerLabel: UILabel!
-    @IBOutlet var QuestionLabel: UILabel!
+    @IBOutlet var questionLabel: UILabel!
     @IBOutlet var nextButton: UIButton!
 
     var isAnswered: Bool = false //回答したか 次の質問へ行くかの判定
@@ -21,7 +21,7 @@ class QuestionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        answerLabel.text = " "
+        answerLabel.text = ""
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -29,10 +29,10 @@ class QuestionViewController: UIViewController {
         wordArray = saveDate.array(forKey: "WORD") as! [Dictionary<String, String>]
     //問題をシャッフルする
         wordArray.shuffle()
-        QuestionLabel.text = wordArray[nowNumber]["English"]
+        questionLabel.text = wordArray[nowNumber]["english"]
     }
     
-    @IBAction func nextButtonTrapped(){
+    @IBAction func nextButtonTapped() {
         //回答したか
         if isAnswered {
             //次の問題へ
@@ -42,7 +42,7 @@ class QuestionViewController: UIViewController {
             //次の問題を表示するか
             if nowNumber < wordArray.count {
                //次の問題を表示
-                QuestionLabel.text = wordArray[nowNumber]["English"]
+                questionLabel.text = wordArray[nowNumber]["english"]
                 //isAnswered = falseにする
                 isAnswered = false
                 //ボタンのタイトルを変更する
@@ -53,7 +53,7 @@ class QuestionViewController: UIViewController {
             }
         }else {
             //答えを表示する
-            answerLabel.text = wordArray[nowNumber]["Japanese"]
+            answerLabel.text = wordArray[nowNumber]["japanese"]
             //isAnswerをtrueに
             isAnswered = true
             //ボタンのタイトルを変更

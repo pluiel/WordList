@@ -2,7 +2,7 @@
 //  ListTableViewCell.swift
 //  WordList
 //
-//  Created by Yuka Uematsu on 2020/05/13.
+//  Created by Yuka Uematsu on 2020/05/14.
 //  Copyright © 2020 Uematsu Well. All rights reserved.
 //
 

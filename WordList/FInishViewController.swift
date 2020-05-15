@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FInishViewController: UIViewController {
+class FinishViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -22,7 +22,7 @@
 		F95CD9FE246CDD3300595D49 /* FInishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD9FD246CDD3300595D49 /* FInishViewController.swift */; };
 		F95CDA00246CDD7B00595D49 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD9FF246CDD7B00595D49 /* ListTableViewController.swift */; };
 		F95CDA02246CDDAB00595D49 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CDA01246CDDAB00595D49 /* AddViewController.swift */; };
-		F95CDA04246CEF0100595D49 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CDA03246CEF0100595D49 /* ListTableViewCell.swift */; };
+		F9841E6F246E4EB300E7E0BF /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9841E6E246E4EB300E7E0BF /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		F95CD9FD246CDD3300595D49 /* FInishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FInishViewController.swift; sourceTree = "<group>"; };
 		F95CD9FF246CDD7B00595D49 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		F95CDA01246CDDAB00595D49 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		F95CDA03246CEF0100595D49 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		F9841E6E246E4EB300E7E0BF /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 				F95CD9FD246CDD3300595D49 /* FInishViewController.swift */,
 				F95CD9FF246CDD7B00595D49 /* ListTableViewController.swift */,
 				F95CDA01246CDDAB00595D49 /* AddViewController.swift */,
-				F95CDA03246CEF0100595D49 /* ListTableViewCell.swift */,
+				F9841E6E246E4EB300E7E0BF /* ListTableViewCell.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -295,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95CD9C9246C14BA00595D49 /* ViewController.swift in Sources */,
-				F95CDA04246CEF0100595D49 /* ListTableViewCell.swift in Sources */,
+				F9841E6F246E4EB300E7E0BF /* ListTableViewCell.swift in Sources */,
 				F95CD9C5246C14BA00595D49 /* AppDelegate.swift in Sources */,
 				F95CDA02246CDDAB00595D49 /* AddViewController.swift in Sources */,
 				F95CD9FC246CDCF400595D49 /* QuestionViewController.swift in Sources */,
